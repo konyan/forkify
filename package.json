@@ -1,0 +1,25 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konyan/forkify.git"
+  },
+  "author": "Ko Nyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/konyan/forkify/issues"
+  },
+  "homepage": "https://github.com/konyan/forkify#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
